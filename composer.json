@@ -5,6 +5,8 @@
     }
   },
   "require": {
-    "vlucas/phpdotenv": "^4.0"
+    "vlucas/phpdotenv": "^4.0",
+    "cocur/slugify": "^3.2",
+    "phpunit/phpunit": "^8.4"
   }
 }

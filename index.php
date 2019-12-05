@@ -8,10 +8,13 @@ error_reporting(E_ALL);
 
 require __DIR__ . '/vendor/autoload.php';
 
+use Cocur\Slugify\Slugify;
 use Dotenv\Dotenv;
 
 $dotenv = Dotenv::createImmutable(__DIR__);
 $dotenv->load();
-
 print_r($_ENV);
 
+
+$slugify = new Slugify();
+echo $slugify->slugify('Hello World!'); // hello-world
