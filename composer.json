@@ -5,8 +5,7 @@
     {"name": "Tairo", "email":  "tairo.developer@gmail.com"}
   ],
   "license": "MIT",
-
-
+  "keywords": ["phpconf", "test", "phpconferencebrasil"],
   "autoload": {
     "psr-4": {
       "App\\":"src/App"
