@@ -1,10 +1,19 @@
 {
+  "name": "Workshop Composer PHP",
+  "description": "Criando pacote composer com PHP 7.4",
+  "authors": [
+    {"name": "Tairo", "email":  "tairo.developer@gmail.com"}
+  ],
+  "license": "MIT",
+
+
   "autoload": {
     "psr-4": {
       "App\\":"src/App"
     }
   },
   "require": {
+    "php": ">=7.3",
     "vlucas/phpdotenv": "^4.0",
     "cocur/slugify": "^3.2",
     "phpunit/phpunit": "^8.4"
