@@ -2,6 +2,10 @@ Workshop Composer
 
 --- php vendor/bin/phpunit test/    
 
---- git push github master  
+ 
+SALVA NO GITHUB
 
+--- git add .  
+--- git commit    
+--- git push github master 
 
