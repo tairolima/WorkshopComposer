@@ -1,5 +1,5 @@
 {
-  "name": "Workshop Composer PHP",
+  "name": "tairolima/WorkshopComposer",
   "description": "Criando pacote composer com PHP 7.4",
   "authors": [
     {"name": "Tairo", "email":  "tairo.developer@gmail.com"}
